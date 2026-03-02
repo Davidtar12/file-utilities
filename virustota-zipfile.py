@@ -8,7 +8,7 @@ load_dotenv()
 # Configuration
 API_KEY = os.getenv('VIRUSTOTAL_API_KEY')
 # Path to the ZIP file to scan
-TARGET_FILE = r"C:\Users\david\Downloads\HDDLLFsetup.4.50.exe"
+TARGET_FILE = r"C:\Users\USERNAME\Downloads\HDDLLFsetup.4.50.exe"
 
 # VirusTotal API endpoints
 UPLOAD_URL = 'https://www.virustotal.com/vtapi/v2/file/scan'

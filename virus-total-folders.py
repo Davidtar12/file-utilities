@@ -7,7 +7,7 @@ load_dotenv()
 
 # Configuration
 API_KEY = os.getenv('VIRUSTOTAL_API_KEY')
-FOLDER_PATH = r"C:\Users\david\Downloads\victoria-hdd-ssd-5-37\Victoria537"  # Replace with your target folder path
+FOLDER_PATH = r"C:\Users\USERNAME\Downloads\victoria-hdd-ssd-5-37\Victoria537"  # Replace with your target folder path
 
 # VirusTotal API endpoints
 UPLOAD_URL = 'https://www.virustotal.com/vtapi/v2/file/scan'
